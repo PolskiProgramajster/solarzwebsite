@@ -1,0 +1,31 @@
+.container {
+    height: 100vh;
+    margin-left: auto ;
+    margin-right: auto;
+    background: white;
+    color: black;
+    background-color: black;
+}
+.programming-languag-img {
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    
+}
+.img-skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}

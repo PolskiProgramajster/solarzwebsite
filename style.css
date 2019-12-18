@@ -1,0 +1,354 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+    --colorblue: #001f3f;
+
+
+}
+
+
+header {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-45deg, #cc00cc, #3333ff);
+    background-size: 200% 200%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    -webkit-animation: change 10s ease-in-out infinite;
+    overflow: hidden;
+
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 00%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.paragraf-item {
+    font-size: 18px;
+    top: 50%;
+    align-items: center;
+
+
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    font-size: 16px;
+
+    width: 100%;
+
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: right;
+
+}
+
+.list-iteam {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+
+
+
+
+}
+
+.scrolled nav {
+    background-color: rgb(0, 0, 0);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease 1s;
+    -webkit-transition: 1s ease 1s;
+    -moz-transition: 1s ease 1s;
+    -ms-transition: 1s ease 1s;
+    -o-transition: 1s ease 1s;
+
+}
+
+
+/* .dupa  {
+        font-size: 28px;
+        position: absolute;
+        left: 22%;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        
+
+        
+    } */
+.paragraf-1 {
+    font-size: 18px;
+    transition: 1s ease 1s;
+    -webkit-transition: 1s ease 1s;
+    -moz-transition: 1s ease 1s;
+    -ms-transition: 1s ease 1s;
+    -o-transition: 1s ease 1s;
+
+}
+
+.motto {
+
+    display: grid;
+
+    height: 50vh;
+    align-items: end;
+    text-align: center;
+    font-size: 32px;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+    margin-left: auto;
+}
+
+span {
+    color: orangered;
+}
+
+.arrow {
+    height: 20px;
+    width: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    animation: arrow 10s infinite ease;
+    -webkit-animation: arrow 5s infinite ease;
+}
+
+@keyframes arrow {
+
+    /* 0% {
+         padding-top:100px;
+         
+     }
+     20%{
+         padding-top:0px;
+     }
+     40% {
+        padding-top:100px;
+     }
+     60%{
+        padding-top:0px;
+     }
+     80%{
+         padding-top: 100px;
+     }
+     100% {
+        padding-top:0px;
+     } */
+    0% {
+        margin-top: 90px;
+    }
+
+    50% {
+        margin-top: 60px;
+
+    }
+
+    100% {
+        margin-top: 90px;
+    }
+}
+
+#dupa {
+    height: 100vh;
+}
+
+.image-certificate {
+    height: 70px;
+    width: 70px;
+    float: right;
+}
+
+.container-2 {
+    height: 100vh;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.dupa123 {
+    float: left;
+}
+
+li:nth-child(3) a {
+    color: orange
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* li:nth-child(even-parzyste odd-nieparzyste) weż element drugi,ale gdy masz np div i p to nie zadziała bo musi byc 2*/
+/* li:nth-last-of-type(wybiera 2 element ni interesuje go czy sa jakieś inne elementy) */
+
+
+.card {
+    height: 350px;
+    width: 225px;
+    background-color: black;
+    color: white;
+    word-wrap: break-word;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: 2px solid black;
+    -webkit-border-radius: 20px;
+
+}
+
+.card:nth-child(odd) {
+    background-color: var(--colorblue);
+}
+
+.card:nth-child(even) {
+    background-color: #FF4136;
+}
+
+#nw {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.iteam-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25vh;
+}
+
+.card p {
+    margin-left: 15px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* that-że */
+.fa-html5 {
+    color: orangered;
+}
+
+.fa-css3-alt {
+    color: #2965f1;
+}
+
+.fa-js {
+    color: yellow;
+}
+
+.awesome {
+    display: flex;
+    justify-content: space-between;
+    margin-left: calc(10vw);
+    margin-right: calc(10vw);
+    margin-top: 50vh;
+    margin-bottom: 50vh;
+}
+
+@media only screen and (max-width: 1000px) {
+    .iteam-card {
+        display: block;
+    }
+
+    .card {
+        margin: 0 auto 0 auto;
+        /* margin-top margin-right margin-bottom margin-left */
+    }
+
+    .card p {
+        font-size: 1.1em;
+    }
+
+    #nw {
+        height: 100%;
+    
+    }
+}
+
+.card {
+    box-shadow: 10px 10px black;
+}
+
+.Akapit {
+    font-size: 38px;
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    animation: animation-text 8s infinite;
+    -webkit-animation: animation-text 8s infinite;
+    transition: ease 1s;
+    -webkit-transition: ease 1s;
+    -moz-transition: ease 1s;
+    -ms-transition: ease 1s;
+    -o-transition: ease 1s;
+}
+
+@keyframes animation-text {
+    0% {
+        color: blue;
+    }
+
+    100% {
+        color: coral;
+    }
+}
+.btw-2 p {
+    text-align: center;
+    
+    font-weight: 800;
+    font-size: 32px;
+    color: white;
+    background-color: black;
+}
+
+
+#nw {
+    background-color: black;
+}
+
+.awesome{
+    background-color: black;
+}
+
+
